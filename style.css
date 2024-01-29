@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header .container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  margin:2.5vh;
+  border:1px solid black;
+}
+
+header .container .logo{
+  display:flex;
+}
+
+header .container .logo img{
+  width:17vh;
+  height:17vh;
+}
+
+header .container .navbar nav ul{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:50px;
+}
+
+header .container .navbar nav ul li{
+  list-style-type: none;
+}
+
+header .container .navbar nav ul li a{
+  text-decoration:none;
+  font-size:20px;
+  font-family:cursive;
+  color:#864AF9;
+  transition: 0.3s;
+}
+
+header .container .navbar nav ul li a:hover{
+  color:#86A7FC
+}
+
+header .container .loginbutton button{
+  width:100px;
+  height:50px;
+  background-color:#F8E559;
+  color:#333;
+  font-size:15px;
+  font-family:cursive;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+header .container .loginbutton button:hover{
+  color:white;
+  background-color:mediumaquamarine;
+}
+
+main .main-container{
+  display:flex;
+  border:1px solid black;
+}
+
+main .main-container .form-container{
+  width:45vw;
+  border:1px solid black;
+}
+
+main .main-container .image-container{
+  border:1px solid black;
+}
+
+main .main-container .image-container img{
+  width:50vw;
+  height:80vh;
+}
+
