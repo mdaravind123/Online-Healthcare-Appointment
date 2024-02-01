@@ -10,7 +10,6 @@ header .container{
   justify-content:space-between;
   flex-wrap:wrap;
   margin:2.5vh;
-  border:1px solid black;
 }
 
 header .container .logo{
@@ -35,14 +34,15 @@ header .container .navbar nav ul li{
 
 header .container .navbar nav ul li a{
   text-decoration:none;
-  font-size:20px;
+  font-size:22px;
   font-family:cursive;
+  font-weight:400;
   color:#864AF9;
   transition: 0.3s;
 }
 
 header .container .navbar nav ul li a:hover{
-  color:#86A7FC
+  color:#86A7FC;
 }
 
 header .container .loginbutton button{
@@ -50,7 +50,7 @@ header .container .loginbutton button{
   height:50px;
   background-color:#F8E559;
   color:#333;
-  font-size:15px;
+  font-size:17px;
   font-family:cursive;
   cursor:pointer;
   transition:0.3s;
@@ -63,20 +63,134 @@ header .container .loginbutton button:hover{
 
 main .main-container{
   display:flex;
-  border:1px solid black;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  height:80vh;
 }
 
 main .main-container .form-container{
-  width:45vw;
-  border:1px solid black;
+  width:35vw;
+  margin:0 2.5vw 2.5vw 2.5vw;
+  height:75vh;
 }
 
-main .main-container .image-container{
+main .main-container .form-container h1{
+  text-indent: 20px;
+  font-family:cursive;
+  font-size:40px;
+}
+
+main .main-container .form-container h2{
+  text-indent:20px;
+  font-family:cursive;
+  font-size:30px;
+}
+
+main .main-container .form-container .form-box form{
+  border:2px solid black;
+  margin:2vw;
+  box-sizing:border-box;
+  width:400px;
+  padding:20px;
+  height:370px;
+}
+
+main .main-container .form-container .form-box form label{
+  font-size:17px;
+  font-family:cursive;
+}
+
+main .main-container .form-container .form-box form input[type="email"],
+main .main-container .form-container .form-box form input[type="password"]{
+  width:90%;
+  height:30px;
+  padding:5px;
+  font-family:cursive;
+  text-align:left;
+  cursor:pointer;
+}
+
+main .main-container .form-container .form-box form input[type="checkbox"]{
+  width:15px;
+  height:15px;
+  cursor:pointer;
+}
+
+main .main-container .form-container .form-box form .button-container{
+  display:flex;
+  align-items:flex-start;
+  justify-content:flex-start;
+  gap:10px;
+}
+
+main .main-container .form-container .form-box form .button-container button[type="reset"]{
+  width:100px;
+  height:40px;
+  font-family:cursive;
+  font-size:15px;
+  color:white;
+  background-color:limegreen;
+  padding:5px;
+  border:2px solid black;
+  cursor:pointer;
+}
+
+main .main-container .form-container .form-box form .button-container button[type="reset"]:hover{
+  color:black;
+  background-color:gold;
+}
+
+main .main-container .form-container .form-box form .button-container .book{
+  border:2px solid black;
+  cursor:pointer;
+  width:220px;
+  height:40px;
+  font-family:cursive;
+  font-size:15px;
+  color:white;
+  background-color:limegreen;
+  padding:5px;
+}
+
+main .main-container .form-container .form-box form .button-container .book:hover{
+  color:black;
+  background-color:gold;
+}
+
+main .main-container .form-container .form-box form .signup-container a{
+  font-family:cursive;
+  text-align:center;
+}
+
+main .main-container .form-container .form-box form .signup-container a:hover{
+  color:blue;
+}
+
+main .main-container .form-container .form-box form .signup-container .signup{
+  width:340px;
+  height:37px;
+  font-family:cursive;
+  font-size:15px;
+  color:white;
+  background-color:royalblue;
+  border:2px solid black;
+  cursor:pointer;
+}
+
+main .main-container .form-container .form-box form .signup-container .signup:hover{
+  background-color:gold;
+  padding:5px;
+}
+
+footer{
+  margin:2.5vw;
+  padding:20px;
   border:1px solid black;
 }
 
 main .main-container .image-container img{
-  width:50vw;
+  width:55vw;
   height:80vh;
 }
 
